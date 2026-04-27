@@ -154,7 +154,6 @@ const canonicalHref = shouldRemoveTrailingSlash
 
 {Astro.props.canonical !== null && <link rel="canonical" href={Astro.props.canonical || canonicalHref} />}
 
-
 {
   Astro.props.description ? (
     <meta name="description" content={Astro.props.description} />
